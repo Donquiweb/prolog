@@ -20,5 +20,12 @@ ATTENTION: If you already have other user styles defined don't forget to edit bo
 
 # Prolog examples and exercices
 
-Examples form Isabelle Tellier, Professor of Computational Linguistics
-http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=1
+Examples form Isabelle Tellier, Professor of Computational Linguistics :  
+http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php  
+#1 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=1  
+#2 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=2  
+#3 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=3  
+#4 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=4  
+#5 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=5  
+#6 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=6  
+#7 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=7  
