@@ -17,3 +17,8 @@ ATTENTION: If you already have other user styles defined don't forget to edit bo
 5- redémarrer VS Code comme il le demande  
 6- cliquer tout en bas à gauche de VS Code sur "Pearl", à côté du smiley (le langage qu'il croit avoir pour le moment) et choisir à la place "Prolog"   
 7- Ready to use  
+
+# Prolog examples and exercices
+
+Examples form Isabelle Tellier, Professor of Computational Linguistics
+http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=1
