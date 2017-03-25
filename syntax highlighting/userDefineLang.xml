@@ -1,4 +1,5 @@
 # source code of Prolog Syntax highlighting for notepad++
+# remove those 2 first comment lines
 
 <NotepadPlus>
     <UserLang name="Prolog" ext="">
