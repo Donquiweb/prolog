@@ -2,7 +2,7 @@
 Learn prolog with examples
 
 # Prolog Syntax highlighting for Notepad++
-Usage instructions is based on Nelson Rocha's script :  
+Usage instructions is based on Nelson Rocha's script (es | en):  
 http://opapao.blogspot.fr/2009/06/prolog-syntax-highlighting-notepad.html
 
 File to dowload and install on your notepad++ instance.  
@@ -18,10 +18,10 @@ ATTENTION: If you already have other user styles defined don't forget to edit bo
 6- cliquer tout en bas à gauche de VS Code sur "Pearl", à côté du smiley (le langage qu'il croit avoir pour le moment) et choisir à la place "Prolog"   
 7- Ready to use  
 
-# Prolog examples and exercices
+# Prolog examples and exercices 
 
 Examples form Isabelle Tellier, Professor of Computational Linguistics :  
-http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php  
+summary (fr) http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php  
 #1 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=1  
 #2 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=2  
 #3 : http://www.lattice.cnrs.fr/sites/itellier/Prolog/corriges.php?td=3  
