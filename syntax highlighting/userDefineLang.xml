@@ -1,0 +1,38 @@
+# source code of Prolog Syntax highlighting for notepad++
+
+<NotepadPlus>
+    <UserLang name="Prolog" ext="">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="yes" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">`00`00</Keywords>
+            <Keywords name="Folder+">:-</Keywords>
+            <Keywords name="Folder-">.</Keywords>
+            <Keywords name="Operators">! ( ) , ; [ \ ] + =</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0%</Keywords>
+            <Keywords name="Words1">findall abolish abolish_iles abort abort_hook absolute_ile_name append arg arity assert asserta assertz at_end_of_ile at_end_of_line atom atom_chars atom_string atomic attrib bagof beep break break_hook brsbox busy call call_dialog callable cat catch char chars chdir clause clauses close cmp compare compile compound constant consult copy copy_term crc current_atom current_op current_predicate debug debug_hook debugging decode decompile def defs del dict dir display dos dup dynamic dynamic_call elex encode ensure_loaded env eof eprint eqv eread errmsg error_hook error_message etoks ewrite exec exit expand_dcg expand_term fail false fclose fcreate fdata fdict ile ile_search_path ileerrors ind indall lag loat luff lush fname fntbox fnthdl fonts forall force fread free functor fwrite garbage_collect gc get get0 getb getx gfx gfx_back_close gfx_back_create gfx_back_dict gfx_back_handle gfx_begin gfx_bitmap_close gfx_bitmap_dict gfx_bitmap_handle gfx_bitmap_load gfx_brush_close gfx_brush_create gfx_brush_dict gfx_brush_handle gfx_cleanup gfx_clipping gfx_cursor_handle gfx_end gfx_font_close gfx_font_create gfx_font_dict gfx_font_handle gfx_fore_close gfx_fore_create gfx_fore_dict gfx_fore_handle gfx_icon_close gfx_icon_dict gfx_icon_handle gfx_icon_load gfx_mapping gfx_metaile_close gfx_metaile_dict gfx_metaile_handle gfx_metaile_load gfx_origin gfx_paint gfx_pen_close gfx_pen_create gfx_pen_dict gfx_pen_handle gfx_resolution gfx_rop_handle gfx_select gfx_test gfx_transform gfx_window_cursor gfx_window_redraw gfx_window_scroll grab ground halt hash help hide hide_dialog history index initialization inpos input integer integer_bound is keys keysort leash leashed len length library_directory list listing load_iles lst lwrupr mclose mcreate mdata mdf mdict mem member message_box message_hook midhdl midi_handler mkdir mnuhdl mrecv ms msend msgbox mstat mtime multiile name nl no_style_check nodebug noileerrors nogc nohash nonvar nospy nospyall not notrace number number_atom number_chars number_string numbervars occurs_chk one op open opnbox optimize optimize_iles otherwise outpos output pdict phrase popup_menu portray portray_clause predicate_property prgbox print prnbox prnend prnini prnpag prnstt proile prolog_lag prolog_load_conte prompt prompts put putb putx read reconsult remove removeall ren repeat retract retractall reverse rgbbox rich_format rich_print rich_syntax rmdir safe savbox save_predicates scan sckhdl sclose screate sdict see seed seeing seen setof sha show_dialog simple size_dialog skip skip_comments skip_layout skip_line skip_term sndmsg socket_handler solution sort source_ile spy srecv ssend sstat stamp statistics stats status_bars stream_position string string_chars stuff style_check subsumes_chk switch sysops system_menu tab tell telling term_expansion throw time timer_close timer_create timer_data timer_dict timer_get timer_set tipbox told total trace true ttylush ttyget ttyget0 ttynl ttyput ttyskip ttytab type uniiable unknown unknown_predicate_handler var vars ver version volatile wait wait_dialog warea wbtnsel wccreate wclass wclose wcmbadd wcmbdel wcmbfnd wcmbget wcmbsel wcount wcreate wdcreate wdict wedtclp wedtfnd wedtlin wedtpxy wedtsel wedttxt wenable wfclose wfcreate wfdata wfdict wind wfocus wfont wfsize winapi window_handler winsze wintxt wlink wlstadd wlstdel wlstfnd wlstget wlstsel wmclose wmcreate wmdict wmnuadd wmnudel wmnuget wmnunbl wmnusel wndgbdy wndgpos wndgrng wndhdl wrange wrchclp wrchfnd wrchget wrchlen wrchlin wrchlod wrchpxy wrchsav wrchsel wrchset wrchtxt write write_canonical writeq wsclpos wsclrng wshow wsize wstppos wstprng wstyle wtabadd wtabdel wtabget wtabrea wtabsel wtcreate wtext wthumb wtrkpos wtrkrng wucreate xinit</Keywords>
+            <Keywords name="Words2">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</Keywords>
+            <Keywords name="Words3">agent_close agent_create agent_data agent_dict agent_post agent_stream agent_version</Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="804000" bgColor="E8B979" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="804000" bgColor="E8B979" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="EA8C00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="00ACFF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFCE" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFCE" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="00B000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
